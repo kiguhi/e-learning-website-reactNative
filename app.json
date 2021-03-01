@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "posta",
+    "slug": "posta",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logob.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "android": {
+      "package": "com.posta.kenya",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET"
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": ""
+  }
+}
